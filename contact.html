@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+<link rel="stylesheet" href="contact.css">
+<link rel="stylesheet" href="contact.js">
+<script language="JavaScript">
+    <!--
+    function FP_preloadImgs() {//v1.0
+     var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+     for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+    }
+    
+    function FP_swapImg() {//v1.0
+     var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+     n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+     elm.$src=elm.src; elm.src=args[n+1]; } }
+    }
+    
+    function FP_getObjectByID(id,o) {//v1.0
+     var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+     else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+     if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+     for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+     f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+     for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+     return null;
+    }
+    // -->
+    </script>
+</head>
+<body>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+    <div class="animation start-home"></div>
+</nav>
+</body>
+<body>  
+  <section id="contact">
+  
+        <h1 class="section-header">Contact</h1>
+        
+        <div class="contact-wrapper">
+        
+        <!-- Left contact page --> 
+          
+          <form id="contact-form" class="form-horizontal" role="form">
+             
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+              </div>
+            </div>
+      
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+              </div>
+            </div>
+      
+            <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+            
+            <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+              <div class="alt-send-button">
+                <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+              </div>
+            
+            </button>
+            
+          </form>
+          
+        <!-- Left contact page --> 
+          
+            <div class="direct-contact-container">
+      
+              <ul class="contact-list">
+                <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">City, State</span></i></li>
+                
+                <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
+                
+                <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">hitmeup@gmail.com</a></span></i></li>
+                
+              </ul>
+      
+              <hr>
+              <ul class="social-media-list">
+                <li>
+				<img border="0" src="instagramlogo.png" width="57" height="60"></li>
+                <li>
+				<img border="0" src="FB-New-300x300-removebg-preview.png" width="57" height="63"></li>
+                <li>
+				<img border="0" src="kisspng-computer-icons-social-media-business-turner-s-fine-polynom-ai-powered-customer-service-5b7caab063df60.7440106515348968164091.png" width="61" height="63"></li>
+                <li>
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+				<img border="0" src="Telegram-Logo.png" width="59" height="62"></li>       
+              </ul>
+              <hr>
+      
+              <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+      
+            </div>
+          
+        </div>
+        
+      </section>  
+        
+        
+    
+
+
+
+
+
+
+
+</body>
+</html>

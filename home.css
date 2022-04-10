@@ -1,0 +1,69 @@
+.burakoz
+{
+ position:absolute;  
+top: 20px;
+left: 50px;
+
+}
+.burakoz img
+{width: 500px;px; height: 700px;px; -webkit-border-radius:30px; -moz-border-radius:30px; border-radius:30px;}
+
+.baslik1
+{
+position:absolute;
+left: 750px;
+color: #ffb400;
+font-family: arial;
+font-size: 25px;
+top: 200px;
+}
+
+.baslik2
+{
+    position:absolute;
+    left: 785px;
+    color: white;
+    font-family: arial;
+    font-size: 25px;
+    top: 260px;
+    }
+
+.para1
+{
+    position:absolute;
+    left: 785px;
+    color: white;
+    font-family: arial;
+    top: 350px;
+text-align: left;    
+}
+
+.buton
+{
+position:absolute;
+left: 1400px;
+top: 200px;
+}
+
+.butona
+{
+    position:absolute;
+    left: 1400px;
+    top: 350px;
+}
+
+.butonb
+{
+    position:absolute;
+    left: 1400px;
+    top: 500px;
+}
+
+
+
+
+
+
+
+
+
